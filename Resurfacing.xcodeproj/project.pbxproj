@@ -41,7 +41,6 @@
 		4B8D5727189D58FE00B94615 /* textBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8D5726189D58FE00B94615 /* textBack.png */; };
 		4B8D572B189D5E6200B94615 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D572A189D5E6200B94615 /* TPKeyboardAvoidingScrollView.m */; };
 		4B8D572E189D649E00B94615 /* REFNewInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D572D189D649E00B94615 /* REFNewInspectionViewController.m */; };
-		52527FE418A8CEC20024675F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FE318A8CEC20024675F /* GoogleMaps.framework */; };
 		525280FF18A8D1CF0024675F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525280F318A8D1CE0024675F /* AVFoundation.framework */; };
 		5252810018A8D1CF0024675F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525280F418A8D1CE0024675F /* CoreData.framework */; };
 		5252810118A8D1CF0024675F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525280F518A8D1CE0024675F /* CoreLocation.framework */; };
@@ -120,7 +119,6 @@
 		4B8D572A189D5E6200B94615 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = UtilClasses/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		4B8D572C189D649E00B94615 /* REFNewInspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFNewInspectionViewController.h; sourceTree = "<group>"; };
 		4B8D572D189D649E00B94615 /* REFNewInspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFNewInspectionViewController.m; sourceTree = "<group>"; };
-		52527FE318A8CEC20024675F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		525280F318A8D1CE0024675F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		525280F418A8D1CE0024675F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		525280F518A8D1CE0024675F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -154,7 +152,6 @@
 				5252810A18A8D1CF0024675F /* SystemConfiguration.framework in Frameworks */,
 				4B8D56F1189D060C00B94615 /* CoreGraphics.framework in Frameworks */,
 				4B8D56F3189D060C00B94615 /* UIKit.framework in Frameworks */,
-				52527FE418A8CEC20024675F /* GoogleMaps.framework in Frameworks */,
 				4B8D56EF189D060C00B94615 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +204,6 @@
 				525280FC18A8D1CF0024675F /* OpenGLES.framework */,
 				525280FD18A8D1CF0024675F /* QuartzCore.framework */,
 				525280FE18A8D1CF0024675F /* SystemConfiguration.framework */,
-				52527FE318A8CEC20024675F /* GoogleMaps.framework */,
 				4B8D56EE189D060C00B94615 /* Foundation.framework */,
 				4B8D56F0189D060C00B94615 /* CoreGraphics.framework */,
 				4B8D56F2189D060C00B94615 /* UIKit.framework */,
@@ -592,8 +588,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Buddhin Gunasekara (8KPRYXV7XU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Buddhin Gunasekara (8KPRYXV7XU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Brinthusha/3sg/Resurfacing\\ 2/GoogleMaps-iOS-1.7.0",
@@ -606,7 +602,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "847C1076-2C3F-4085-ACAF-8FB8F409C909";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -617,8 +613,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Buddhin Gunasekara (8KPRYXV7XU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Buddhin Gunasekara (8KPRYXV7XU)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Brinthusha/3sg/Resurfacing\\ 2/GoogleMaps-iOS-1.7.0",
@@ -631,7 +627,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "847C1076-2C3F-4085-ACAF-8FB8F409C909";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

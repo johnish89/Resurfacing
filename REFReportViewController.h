@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface REFReportViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @property (weak, nonatomic) IBOutlet UITextField *iDNumber;
 @property (weak, nonatomic) IBOutlet UITextField *inspectionDate;
 @property (weak, nonatomic) IBOutlet UITextField *inspector;

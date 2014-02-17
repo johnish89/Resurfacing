@@ -8,7 +8,6 @@
 
 #import "REFShowMapViewController.h"
 #import "REFNewInspectionViewController.h"
-#import <GoogleMaps/GoogleMaps.h>
 
 
 #define METERS_PER_MILE 1609.344
@@ -17,7 +16,7 @@
 {
     
     
-   GMSMapView *mapView_;
+
 
     CLLocationCoordinate2D coordinate;
    // MBProgressHUD *HUD;

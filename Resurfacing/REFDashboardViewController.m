@@ -120,22 +120,10 @@
     }
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if([[[dashboardDataArray objectAtIndex:indexPath.row-1]valueForKey:@"inspection_type"] isEqualToString:@"rep"])
-    {
-        REFReportViewController *nextView= [[REFReportViewController alloc]initWithNibName:@"REFReportViewController" bundle:nil];
-        nextView=[[dashboardDataArray objectAtIndex:indexPath.row-1]valueForKey:@"stf_no"];
-        [self.navigationController pushViewController:nextView animated:YES];
+    REFReportViewController *nextView= [[REFReportViewController alloc]initWithNibName:@"REFReportViewController" bundle:nil];
+    [self.navigationController pushViewController:nextView animated:YES];
+
     }
-    else
-    {
-        REFReportViewController *nextView= [[REFReportViewController alloc]initWithNibName:@"REFReportViewController" bundle:nil];
-        nextView=[[dashboardDataArray objectAtIndex:indexPath.row-1]valueForKey:@"stf_no"];
-        
-        [self.navigationController pushViewController:nextView animated:YES];
-        
-    }
-    
-}
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row==0)
