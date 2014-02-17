@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface REFNewInspection5ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *submit;
 
 @end

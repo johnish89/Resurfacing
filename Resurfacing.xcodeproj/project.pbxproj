@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1D627A18A9E60E00F7CA57 /* REFReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D627818A9E60E00F7CA57 /* REFReportViewController.m */; };
+		1B1D627B18A9E60E00F7CA57 /* REFReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D627918A9E60E00F7CA57 /* REFReportViewController.xib */; };
+		1B1D627D18A9E63400F7CA57 /* Prime Tech Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D627C18A9E63400F7CA57 /* Prime Tech Logo.png */; };
 		4B198069189E27740073ED3A /* REFNewInspection2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B198068189E27740073ED3A /* REFNewInspection2ViewController.m */; };
 		4B19806C189E27C90073ED3A /* REFNewInspection3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19806B189E27C90073ED3A /* REFNewInspection3ViewController.m */; };
 		4B19806F189E283B0073ED3A /* REFNewInspection4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19806E189E283B0073ED3A /* REFNewInspection4ViewController.m */; };
@@ -64,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1D627718A9E60E00F7CA57 /* REFReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REFReportViewController.h; path = ../REFReportViewController.h; sourceTree = "<group>"; };
+		1B1D627818A9E60E00F7CA57 /* REFReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REFReportViewController.m; path = ../REFReportViewController.m; sourceTree = "<group>"; };
+		1B1D627918A9E60E00F7CA57 /* REFReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = REFReportViewController.xib; path = ../REFReportViewController.xib; sourceTree = "<group>"; };
+		1B1D627C18A9E63400F7CA57 /* Prime Tech Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Prime Tech Logo.png"; sourceTree = "<group>"; };
 		4B198067189E27740073ED3A /* REFNewInspection2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFNewInspection2ViewController.h; sourceTree = "<group>"; };
 		4B198068189E27740073ED3A /* REFNewInspection2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFNewInspection2ViewController.m; sourceTree = "<group>"; };
 		4B19806A189E27C90073ED3A /* REFNewInspection3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFNewInspection3ViewController.h; sourceTree = "<group>"; };
@@ -168,6 +175,7 @@
 		4B8D56E2189D060C00B94615 = {
 			isa = PBXGroup;
 			children = (
+				1B1D627C18A9E63400F7CA57 /* Prime Tech Logo.png */,
 				4B8D56F4189D060C00B94615 /* Resurfacing */,
 				4B8D5713189D060C00B94615 /* ResurfacingTests */,
 				4B8D56ED189D060C00B94615 /* Frameworks */,
@@ -238,6 +246,9 @@
 				4B198082189E98080073ED3A /* DashboardHeaderCell.h */,
 				4B198083189E98080073ED3A /* DashboardHeaderCell.m */,
 				4B198086189E98860073ED3A /* DashboardContentCell.xib */,
+				1B1D627718A9E60E00F7CA57 /* REFReportViewController.h */,
+				1B1D627818A9E60E00F7CA57 /* REFReportViewController.m */,
+				1B1D627918A9E60E00F7CA57 /* REFReportViewController.xib */,
 				4B198088189E98C40073ED3A /* DashboardContentCell.h */,
 				4B198089189E98C40073ED3A /* DashboardContentCell.m */,
 				4B19808B189E9A280073ED3A /* REFDashboardViewController.h */,
@@ -413,6 +424,8 @@
 				4B198084189E98080073ED3A /* DashboardHeaderCell.xib in Resources */,
 				4B8D56F9189D060C00B94615 /* InfoPlist.strings in Resources */,
 				4B198087189E98860073ED3A /* DashboardContentCell.xib in Resources */,
+				1B1D627D18A9E63400F7CA57 /* Prime Tech Logo.png in Resources */,
+				1B1D627B18A9E60E00F7CA57 /* REFReportViewController.xib in Resources */,
 				4B8D5702189D060C00B94615 /* Main.storyboard in Resources */,
 				4B8D5725189D0A4400B94615 /* image001.png in Resources */,
 				4B8D5727189D58FE00B94615 /* textBack.png in Resources */,
@@ -444,6 +457,7 @@
 				4B8D56FF189D060C00B94615 /* AppDelegate.m in Sources */,
 				4B198090189E9E660073ED3A /* REFLoginViewController.m in Sources */,
 				4B19807B189E434F0073ED3A /* MBProgressHUD.m in Sources */,
+				1B1D627A18A9E60E00F7CA57 /* REFReportViewController.m in Sources */,
 				4B19808A189E98C40073ED3A /* DashboardContentCell.m in Sources */,
 				4B198075189E29BA0073ED3A /* REFNewInspectionResultViewController.m in Sources */,
 				4B8D572E189D649E00B94615 /* REFNewInspectionViewController.m in Sources */,

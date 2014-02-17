@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VfE-0h-JYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-901" y="-187"/>
+            <point key="canvasLocation" x="-899" y="-181"/>
         </scene>
         <!--New Inspection View Controller - New-->
         <scene sceneID="Ap2-eX-wfx">
@@ -606,7 +606,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfG-UH-XHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1460" y="-594"/>
+            <point key="canvasLocation" x="1500" y="-606"/>
         </scene>
         <!--New Inspection2 View Controller - New-->
         <scene sceneID="M2L-PX-bNv">
@@ -2396,6 +2396,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="submit" destination="6W9-8r-YJa" id="Fd3-uA-Kyz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSC-94-Uv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
